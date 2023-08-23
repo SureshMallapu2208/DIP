@@ -3,7 +3,7 @@ using DIP;
 
 Console.WriteLine("Hello, World!");
 
-BusinessLogic obj = new BusinessLogic();
+BusinessLogic obj = new BusinessLogic(new DataAccess());
 obj.SaveDetails();
 
 Console.Read();
